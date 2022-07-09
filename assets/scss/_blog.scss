@@ -1,0 +1,441 @@
+
+
+
+/*===========================
+        10 BLOG css 
+===========================*/
+
+.blog-post-area{
+
+background: $blog-bg;
+
+    .blog-card{
+
+
+        background: $white;
+         padding: 0 0 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 50px 0 #dddddd;@include transition(0.3s);
+
+
+    .post-meta{
+      padding:30px;
+      ul.list-unstyled{
+             list-style: outside none none;    
+    margin: 0;
+    padding: 0;
+
+        li{
+    display: inline-block;
+    margin-left: 35px;
+
+          a{
+           @include transition(0.3s);position:relative;
+
+            i{
+              color: $theme-color; position: absolute;
+   top: 2px;
+    left: -35px;
+            }
+            i.ml-0{
+              margin-left: 0px !important
+            }
+               &:hover{
+                color: $theme-color;@include transition(0.5s);
+               }
+
+            
+          }
+        }
+      }
+
+    }
+
+
+    .blog-image{
+        overflow: hidden;
+        position: relative; @include transition(0.3s);    border-radius: 4px;
+        & img{
+            width: 100%;
+            @include transition(0.3s);border-bottom: 4px solid $theme-color;
+        }
+
+        .post-date{
+        position: absolute;
+                left: 10%;
+                top: 10%;
+            background: $theme-color;
+            width: 82px;
+            text-align: center;
+            border-radius: 200px;
+            padding: 12px;
+            height: 82px;
+            color: $white; @include transition(0.3s);
+            font-size: 20px;z-index: 12
+        }
+
+
+        &::before{
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            @include transition(0.3s);
+            z-index: 9;
+        }
+
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+            .blog-content{
+                padding:20px 30px; padding-bottom:0;
+
+                  @media #{$lg}{
+                    padding:15px 15px
+                  }
+
+
+                h5.blog-title{
+                    font-size: 25px;font-weight: 700;text-transform: capitalize;color: $heading-color;padding-bottom:20px;
+                  @media #{$lg}{
+                      font-size: 20px;
+                  }
+                    
+                    a{
+                        color: $heading-color;
+                    }
+
+                  @media #{$xs}{
+                      font-size: 20px;
+                  }
+
+                }
+                p{
+                    padding-bottom: 30px
+                }
+
+                .main-btn{
+                  width: 180px
+                }
+
+            }
+
+
+              &:hover{
+                  @include transition(0.5s);
+                  & .blog-image{
+                      & img{
+                          @include transform(scale(1.2) rotate(
+      -7deg
+      ));@include transition(0.5s);
+                      }
+                      &::before{
+                          opacity: 1;
+                      }
+                  }
+
+
+                .main-btn {
+                  color: $heading-color;
+                }
+                .main-btn span {
+                  width: 225%;
+                  height: 562.5px;color: $heading-color;@include transition(0.5s);
+                }
+                .main-btn {
+                  background-color: $theme-color;@include transition(0.5s);
+                }
+
+                .mouse-hover{
+                        overflow: hidden;
+                    position: relative;
+                    @include transition(0.6s);
+                    z-index: 1;
+                }
+
+
+
+
+
+
+
+
+
+              }
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+//Home Version Two 
+
+.blog_style2{
+
+background: $blog-bg2;
+
+    .blog-card{
+
+
+        background: $white;
+         padding: 0 0 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 50px 0 #dddddd;@include transition(0.3s);
+
+
+    .post-meta{
+      padding:30px;
+      ul.list-unstyled{
+             list-style: outside none none;    
+    margin: 0;
+    padding: 0;
+
+        li{
+    display: inline-block;
+    margin-left: 35px;
+
+          a{
+           @include transition(0.3s);position:relative;
+
+           &:hover{
+             color: $theme-color2;@include transition(0.5s)
+           }
+
+            i{
+              color: $theme-color2; position: absolute;
+   top: 2px;
+    left: -35px;
+            }
+            i.ml-0{
+              margin-left: 0px !important
+            }
+          }
+        }
+      }
+
+    }
+
+
+    .blog-image{
+        overflow: hidden;
+        position: relative; @include transition(0.3s);    border-radius: 4px;
+        & img{
+            width: 100%;
+            @include transition(0.3s);border-bottom: 4px solid $theme-color2;
+        }
+
+        .post-date{
+        position: absolute;
+                left: 10%;
+                top: 10%;
+            background: $theme-color2;
+            width: 82px;
+            text-align: center;
+            border-radius: 200px;
+            padding: 12px;
+            height: 82px;
+            color: $white; @include transition(0.3s);
+            font-size: 20px;z-index: 12
+        }
+
+
+        &::before{
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            @include transition(0.3s);
+            z-index: 9;
+        }
+
+        
+    }
+
+
+
+
+
+
+
+
+
+
+            .blog-content{
+                padding:20px 30px; padding-bottom:0;
+
+                  @media #{$lg}{
+                    padding:15px 15px
+                  }
+
+
+                h5.blog-title{
+                    font-size: 25px;font-weight: 700;text-transform: capitalize;color: $heading-color;padding-bottom:20px;
+                  @media #{$lg}{
+                      font-size: 20px;
+                  }
+                    
+                    a{
+                        color: $heading-color;
+                    }
+
+                  @media #{$xs}{
+                      font-size: 20px;
+                  }
+
+                }
+                p{
+                    padding-bottom: 30px
+                }
+
+                .main-btn{
+                  width: 180px
+                }
+
+            }
+
+
+
+              &:hover{
+                  @include transition(0.5s);
+                  & .blog-image{
+                      & img{
+                          @include transform(scale(1.2) rotate(
+      -7deg
+      ));@include transition(0.5s);
+                      }
+                      &::before{
+                          opacity: 1;
+                      }
+                  }
+
+
+                .main-btn-blue {
+                  color: $heading-color;
+                }
+                .main-btn-blue span {
+                  width: 225%;
+                  height: 562.5px;color: $heading-color;@include transition(0.5s);
+                }
+                .main-btn-blue {
+                  background-color: $theme-color2;@include transition(0.5s);
+                }
+
+                .mouse-hover{
+                        overflow: hidden;
+                    position: relative;
+                    @include transition(0.6s);
+                    z-index: 1;
+                }
+
+
+
+
+
+
+
+
+
+              }
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+// Blog Pagination css
+.blog_pagination{
+
+  nav{
+    ul.pagination {
+      li.page-item.active{
+
+        a.page-link{
+          background:$theme-color2;border-color: $theme-color2;color:$white;
+        }
+      }
+      li.page-item{
+        border-color: $heading-color;
+        a.page-link{
+          border-color: $heading-color;color:$heading-color;border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 36px;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0px 5px; @include transition(0.3s);
+          i{
+            margin-top: 3px;position:relative;
+          }
+          i.left-icon{
+    transform: rotate(
+179deg
+);
+    margin-top: 0px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 3px;
+          }
+
+          &:hover{
+            color:$white;
+            background:$heading-color; @include transition(0.5s);border-color: $heading-color
+          }
+        }
+      }
+    }
+  }
+
+}
+
+

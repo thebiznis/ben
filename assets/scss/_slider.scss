@@ -1,0 +1,253 @@
+
+
+
+/*===========================
+       3.SLIDER css 
+===========================*/
+
+
+
+
+.slider-content{
+    padding-top: 145px;
+    padding-bottom: 150px;
+    position:relative;
+    z-index: 12;
+     @media #{$lg}{
+            padding-left: 20px;
+            padding-top: 200px;
+            padding-bottom: 120px;
+            
+        }
+    & .sub-title{
+        font-size: 50px;
+        font-weight: 600;
+        letter-spacing: 2px;
+       
+        color: $white;
+        font-family: $montserrat;
+     
+        @media #{$lg}{
+            font-size: 45px;
+        }
+        @media #{$md}{
+            font-size: 35px;
+        }
+        @media #{$xs}{
+            font-size: 25px;
+        }
+        @media #{$sm}{
+            font-size: 25px;
+        }
+    }
+    & .slider-title{
+        font-size: 70px;
+        font-weight: 700;
+        letter-spacing: 2px;
+               color: $white;
+        font-family: $montserrat;  padding: 12px ​0px;
+
+  
+        @media #{$lg}{
+            font-size:55px;
+        }
+        @media #{$md}{
+            font-size: 40px;
+        }
+        @media #{$xs}{
+            font-size: 35px;
+        }
+        @media #{$sm}{
+            font-size: 25px;
+        }
+    }
+    & .text{
+        margin-top: 20px;margin-bottom:20px;color: $white;
+    }
+    .m-auto{
+        margin: 0px auto;
+    }
+    
+    & .main-btn{
+      
+    }
+    
+    &.content-2{
+        & .sub-title,
+        & .slider-title,
+        & .text{
+            color: $white;
+        }
+    }
+}
+
+.home-slider{
+
+    .single-slider{
+            position:relative;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+    
+
+            height: 994px;
+                display: flex;
+    align-items: center;
+
+        @media #{$desktop}{
+            height: 994px;
+        }
+        
+        @media #{$lg}{
+            height: 700px; background-position: 70% 50% !important
+        }
+        @media #{$md}{
+            height: auto;    background-position: 70% 50% !important
+        }
+        @media #{$xs}{
+            height: auto;    background-position: 70% 50% !important
+        }
+
+
+        &::before{
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: #000;
+          /* IE 8 */
+          -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+
+          /* IE 5-7 */
+          filter: alpha(opacity=50);
+
+          /* Netscape */
+          -moz-opacity: 0.5;
+
+          /* Safari 1.x */
+          -khtml-opacity: 0.5;
+
+          /* Good browsers */
+          opacity: 0.5;
+
+        }
+
+
+
+
+
+
+
+    }
+
+                .slick-dots {
+                    z-index: 9;
+                    position: absolute;
+                    bottom: 50px;
+                    left: 50%;
+                    -webkit-transform: translateX(-50%);
+                    -moz-transform: translateX(-50%);
+                    -ms-transform: translateX(-50%);
+                    -o-transform: translateX(-50%);
+                    transform: translateX(-50%);
+                }
+
+
+                .slick-dots li {
+                    display: inline-block;
+                    margin: 0 5px;
+                }
+
+
+                .slick-dots li.slick-active button {
+                    background-color: $theme-color;
+                    border-color: #e0e0e0;
+                }
+
+                .slick-dots li button {
+                    width: 13px;
+                    height: 13px;
+                    background: none;
+                    background-color: #DFDFDF;
+                    border-radius: 50px;
+                    font-size: 0;
+                    -webkit-transition: all 0.3s ease-out 0s;
+                    -moz-transition: all 0.3s ease-out 0s;
+                    -ms-transition: all 0.3s ease-out 0s;
+                    -o-transition: all 0.3s ease-out 0s;
+                    transition: all 0.3s ease-out 0s;
+                    border: 0;
+                }
+
+
+    & .slick-arrow{
+        position: absolute;
+        top: 50%;
+       
+
+        @include transform(translateY(-50%));
+        z-index: 9;
+        height: 110px;
+        width: 35px;
+        text-align: center;
+        line-height: 110px;
+        background-color: rgba(2, 2, 2, 0.2);
+        color: $white;
+        font-size: 20px;
+        opacity: 0;
+        visibility: hidden;
+        @include transition(0.3s);
+        cursor: pointer;
+
+    background-color: transparent;
+
+        @media #{$extra-lg}{
+           left: 8%;
+        }
+        
+        @media #{$desktop}{
+            left: 2%;
+        }
+
+
+        
+        & i{
+            @include transition(0.3s);font-size: 30px;
+            &:hover{
+                 color: $theme-color;@include transition(0.5s);
+            }
+        }
+        &.next{
+            left: auto;
+            right: 0;
+        }
+    }
+
+    .next{
+      
+        @media #{$extra-lg}{
+            right: 8% !important;
+        }
+        
+        @media #{$desktop}{
+             right: 2% !important;
+        }
+
+
+    }
+    
+    &:hover{
+        & .slick-arrow{
+            opacity: 1;
+            visibility: visible;
+
+        }
+    }
+}
+
+
+
+

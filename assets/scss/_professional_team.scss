@@ -1,0 +1,252 @@
+
+/*===========================
+  Our professional teams
+===========================*/
+
+
+.our_professional_team{
+
+
+
+
+
+
+
+.single_team_member{
+position:relative;overflow: hidden;@include transition(0.3s);
+        @media #{$md} {
+                   margin-bottom: 20px
+              }
+        @media #{$xs} {
+                   margin-bottom: 20px
+              }
+	.team_social_icons{
+		@include transition(0.5s);
+		    position: absolute;
+		    left: 0;
+		    z-index: 1;
+		  width: 80px;
+		  // height: 200px;
+		  padding: 25px 20px 19px;
+		  // opacity: 0.6;
+		  background-color: #25294899;border-radius:5px;
+
+		  	ul{
+
+		  		li{
+		  			margin: 5px 0px;
+		    padding: 8px;background-color:$theme-color2;border-radius:3px;
+		  			a{
+		  				position:relative;@include transition(0.3s);
+
+		  				&:hover{
+		  						@include transition(0.5s);background-color:#2455e6b0;
+
+		  				}
+		  				
+		  				i{
+
+		  				    font-size: 18px;
+		    color: #fff;
+		    position: absolute;
+		    top: -15px;
+		    left: 3px;
+		    right: 0px;@include transition(0.3s);
+
+		    &:hover{
+		    	color: #ddd;@include transition(0.5s);
+		    }
+		    
+		}
+		  			}
+		  		}
+		  	}
+
+	}
+	.team_avatar{
+		border-radius: 5px;
+		img{
+			width: 100%
+		}
+
+	}
+
+	.team_overlay {
+	  position: absolute;
+	  left: 0;
+	  bottom: -100%;
+	  width: 100%;
+	  height: 100%;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  z-index: 10;
+	  flex-direction: column;
+   	 background-color: rgba(36, 85, 230, 0.6);
+   	
+	  border-radius: 5px;
+	  transition: bottom 0.5s;
+	  transition-delay: 0.65s;
+
+	  @media #{$md} {
+
+	  bottom: -100%;
+
+	  }
+	  @media #{$xs} {
+
+	  bottom: -100%;
+
+	  }
+
+
+	}
+	.overlay_content{
+		border:8px solid$white;margin: 10px;@include transition(0.5s);
+    padding: 50px;
+    border-radius: 3px;height: 100%;    padding-top: 45%;
+        @media #{$lg} {
+                  padding: 30px 20px;
+  
+ 
+    padding-top: 35%;
+              }
+
+        @media #{$md} {
+                  padding: 25px 40px;
+  
+ 
+    padding-top: 35%;
+              }
+
+
+        @media #{$xs} {
+                    padding: 10px 30px;border:0px solid$white;margin: 0px;
+  
+ 
+    padding-top: 35%;
+        }
+	}
+
+	 .team_overlay .contentBx {
+	 	margin-bottom: 20px;display: block;
+	 }
+	 .team_overlay .contentBx h5 {
+	 
+	  color: $white;
+	  letter-spacing: 2px;
+	  text-align: center;
+	 	text-transform: uppercase !important;
+	  line-height: 40px;
+	  transition: 0.5s;
+	  transition-delay: 0.6s;
+	  opacity: 0;
+	  transform: translateY(-20px);
+
+
+
+	}
+
+	 &:hover .team_overlay .contentBx h5{
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+
+
+	 .team_overlay .contentBx span {
+
+	  line-height: 1.1em;
+	  transition: 0.5s;
+	  transition-delay: 0.6s;
+	  opacity: 0;
+	  transform: translateY(-25px);
+	}
+
+	 &:hover .team_overlay .contentBx span{
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+	 .team_overlay .contentBx span{
+	 	margin-bottom: 20px;color: $white;font-size: 17px;text-transform: uppercase;    display: block;
+	 }
+
+	.team_overlay .contentBx h5 {
+	  font-size: 30px;text-transform: uppercase;
+	  font-weight: 600;
+	  text-transform: initial;color: $white;
+        @media #{$lg} {
+                   font-size: 22px;
+              }
+        @media #{$md} {
+                   font-size: 22px;
+              }
+
+
+	}
+	  .team_overlay .sci {
+	  position: relative;
+	  bottom: 0px;top: 10px
+	  
+	}
+	.team_overlay .sci li {
+	  list-style: none;
+	  margin: 0 10px;
+	  transform: translateY(40px);
+	  transition: 0.5s;
+	  opacity: 0;
+	  transition-delay: calc(0.2s * var(--i));display: inline-block;
+	}
+	 &:hover .team_overlay {
+	  bottom: 0;
+	  transition-delay: 0s;
+	}
+	&:hover .team_overlay .sci li {
+	  transform: translateY(0);
+	  opacity: 1;
+	 
+
+	}
+	.team_overlay .sci li a {
+		@include transition(0.3s);
+	  &:hover {
+	  	 color: #ddd;@include transition(0.5s);
+	  }
+	 
+
+	}
+	.team_overlay .sci li a {
+	  color: $white;
+	  font-size: 24px;
+	}
+
+
+	&:hover{
+		@include transition(0.5s);
+	
+
+			.team_social_icons{
+		  transform: translateX(-40px);
+		  transition: 0.5s;
+		  opacity: 0;
+		  transition-delay: calc(0.2s * var(--i));@include transition(0.5s);
+			}
+
+
+
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+}

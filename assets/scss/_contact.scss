@@ -1,0 +1,392 @@
+
+/*===========================
+     10.CONTACt PAGE css 
+===========================*/
+
+
+.contact-info{
+    .contact-icon i {
+        font-size: 42px;
+        border-radius: 50%;
+        color: #0b57e3;
+        text-align: center;
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        border: 1px solid #0b57e3;
+    }
+
+
+
+
+   .contact-box {
+    background: $blog-bg2;
+    padding-top: 30px;
+    }
+    .contact-box .contact-content2{
+        margin-top: 25px;
+        padding-bottom: 30px;
+        transition: .3s;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .contact-box .contact-content2 p{
+        margin-bottom: 0;
+    }
+
+    .contact-content2 h5{
+        font-size: 24px;
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+
+
+}
+
+
+
+
+
+
+/* contact */
+.contact-area{
+    background-color:$blog-bg2;
+}
+
+
+
+.contact-bg02 {
+    padding: 30px;
+     border-color: rgb(239, 245, 255);
+  background-color: rgb(249, 251, 254);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.05);
+}
+.contact-bg02 .section-title {
+    background: #0b57e3;
+    margin: -30px -30px 0;
+    text-align: center;
+    padding: 10px;
+}
+.contact-bg02 .section-title h2 {
+    color: #fff;
+    font-size: 36px;
+}
+.contact-area {
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.contact-area .map {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.contact-wrapper textarea {
+    border: 0;
+    color: #000;
+    font-size: 15px;
+    height: 200px;
+    width: 100%;
+    text-transform: capitalize;
+    transition: .3s;
+    background: #f4f4fe;
+    padding: 30px 40px;
+}
+.contact-wrapper textarea::-moz-placeholder {
+    color: #b3bdcd;
+    font-size: 14px;
+}
+.contact-wrapper textarea::placeholder {
+    color: #8990b0;
+    font-size: 14px;
+}
+.c-icon i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 40px;
+    color: #8990b0;
+    font-size: 14px;
+}
+.contact-message.c-icon i{top: 30px;transform: unset;}
+.contact-wrapper input {
+    border: 0;
+    color: #000;
+    font-size: 15px;
+    height: 80px;
+    text-transform: capitalize;
+    width: 100%;
+    padding: 0 40px;
+    transition: .3s;
+    background: #f4f4fe;
+}
+.contact-wrapper input::-moz-placeholder {
+    color: #8990b0;
+    font-size: 14px;
+}
+.contact-wrapper input::placeholder {
+    color: #8990b0;
+    font-size: 14px;
+}
+.contact-name {
+    position: relative;
+}
+.contact-field label {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #181E23;
+    margin-bottom: 20px;
+    cursor: unset;
+}
+.contact-field {
+ padding-right: 0;
+}
+.contact-field input  {
+    width: 100%;
+border: none;
+background-color: rgb(255, 255, 255);
+padding: 15px 15px;
+transition: .3s;
+    border: 1px solid transparent;@include transition(0.3s);
+}
+
+.contact-field input::placeholder{color: #9e9e9e;}
+.contact-field textarea {
+    width: 100%;
+
+    padding: 15px;
+    transition: .3s;
+  background-color: rgb(255, 255, 255);
+    height: 100px;
+     border: 1px solid transparent;@include transition(0.3s);
+}
+
+
+.contact-bg {
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+.contact-img {
+    position: absolute;
+    bottom: 0;
+    right: 170px;
+    z-index: -1;
+}
+.contact-field select {
+    width: 100%;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 15px;
+    transition: .3s;
+    border: 1px solid rgb(212, 223, 255);
+}
+
+.single-post-details .comment-form input:focus {
+    border: 1px solid$theme-color2;@include transition(0.5s);
+}
+
+.contact-field textarea:focus, .contact-field input:focus, .contact-field select:focus {
+    border: 1px solid $theme-color2;@include transition(0.5s);
+}
+
+
+
+
+
+
+
+// Request call back
+
+.request_call_back_area{
+    background-color: $white;
+
+p{
+    &.form-message.success,
+    &.form-message.error {
+        font-size: 16px;
+        color: #333;
+
+            color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+
+        &.form-message.error{
+            color: #f00;
+        }
+    }
+}
+
+.question_accordion{
+
+
+    .accordion{
+
+        .accordion-item{
+            margin-bottom: 20px;
+            .accordion-header{
+                    .accordion-button:not(.collapsed) {
+                        color: $white;
+                        background-color: $theme-color;
+                       
+                    }
+
+
+
+
+            }
+
+            .accordion-button:focus {
+                z-index: 3;
+                border-color: #86b7fe;
+                outline: 0;
+                box-shadow: 0 0 0 0;
+            }
+
+
+
+
+        }
+
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.request_callback{
+
+            .form_row{
+                background-color:$theme-color;padding:20px;
+
+                .single_title{
+                    
+
+                    h5{
+                        color: $heading-color;font-size: 30px;font-weight: 500;color: $white
+                    }
+                }
+
+            }
+
+
+
+            .request_row{
+
+                background-color:$card-color;padding:30px 20px;
+                
+            }
+
+
+        .single_form{
+            & textarea,
+            & input{
+                width: 100%;
+                height: 55px;
+                border: 1px solid transparent;
+                border-radius: 5px;
+                padding: 0 25px;
+                color: $heading-color;
+                font-size: 16px;background:$white;@include transition(0.3s);
+            }
+            
+            & textarea{
+                height: 180px;
+                padding-top: 15px;
+                resize: none;
+                border-radius: 5px;@include transition(0.3s);
+            }
+
+           input:focus, textarea:focus {
+                    border: 1px solid $theme-color;@include transition(0.5s);
+                }
+
+
+
+        }
+    
+  
+}
+
+
+
+
+
+}
+
+
+// .contact_area{
+//     position: relative;z-index: 12;
+
+//     .contact_row{
+
+
+
+
+ 
+
+//         .single_form{
+//             & textarea,
+//             & input{
+//                 width: 100%;
+//                 height: 55px;
+//                 border: 1px solid $border-color;
+//                 border-radius: 5px;
+//                 padding: 0 25px;
+//                 color: $heading-color;
+//                 font-size: 16px;background:$gray;@include transition(0.3s);
+//             }
+            
+//             & textarea{
+//                 height: 150px;
+//                 padding-top: 15px;
+//                 resize: none;
+//                 border-radius: 5px;@include transition(0.3s);
+//             }
+
+//            input:focus, textarea:focus {
+//                     border: 1px solid $theme-color;@include transition(0.5s);
+//                 }
+
+
+
+//         }
+
+
+
+//     }
+
+
+
+
+
+
+
+// }
+
+
+
+

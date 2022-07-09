@@ -1,0 +1,265 @@
+
+/*===========================
+   05   Business  css 
+===========================*/
+
+
+.build_business{
+
+
+
+
+			position: relative;
+
+
+					.section-title{
+
+						margin-bottom: 0px;
+					        @media #{$md}{
+					           margin-top:30px
+					        }
+					        @media #{$xs}{
+					            margin-top:30px
+					        }
+
+					}
+
+
+
+					.business_image {
+					position: absolute;
+					    top: 0;
+					    left: 0;
+					    width: 46%;
+					    height: 100%;
+
+				    @media #{$md}{
+				        position: relative;
+				        width: 720px;
+				        margin: 0 auto;
+				        padding-left: 15px;
+				        padding-right: 15px;
+				    }
+				    @media #{$xs}{
+				        position: relative;
+				        width: 100%;
+				        margin: 0 auto;
+				        padding-left: 15px;
+				        padding-right: 15px;
+				    }
+				    
+				    @media #{$sm}{
+				        width: 540px;
+				    }
+				    
+				    & .image{
+				        & img{
+				            
+				        }
+				    }
+
+
+
+					    
+					}
+
+
+
+					.build_info{
+
+						p{
+							padding-bottom: 30px;
+						}
+
+
+						.build_list{
+							padding-left:20px;
+							h5{
+								font-size: 17px;font-family: $roboto;font-weight: 400;color: $heading-color;padding-bottom:20px;position:relative;
+								i{
+									    position: absolute;
+											    top: 2px;
+											    left: -30px;color: $theme-color;
+
+								}
+							}
+							p{
+								padding-bottom:20px;
+							}
+						}
+
+					}
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+// Home Version Two 
+
+.build_your_business_style2{
+
+background: #F9F6F6;padding-top: 200px;
+			
+				    @media #{$md}{
+				        padding-top: 50px;
+				        .pb-none{
+
+				        	padding-bottom: 0px
+				        }
+				    }
+				    @media #{$xs}{
+				        padding-top: 50px;
+				    }
+
+
+	.section-title{
+		margin-bottom: 0px;
+	}
+
+
+	.build-item{
+
+		h5{
+			font-size: 70px;font-weight: 700;color: $heading-color2;
+				    @media #{$lg}{
+				        font-size: 60px
+				    }
+				    @media #{$md}{
+				        font-size: 60px
+				    }
+				    @media #{$xs}{
+				        font-size: 50px
+				    }
+
+		}
+	}
+
+
+
+}
+
+
+.custom_services_business{
+background:$white;
+
+	        @media #{$xs}{
+	            .pt-100{
+	            	padding-top:50px
+	            }
+	        }
+
+	.single_business{
+		padding: 115px 48px 50px 48px;
+		  border-radius: 10px;
+		  box-shadow: 0 0 50px 0 rgba(158, 158, 158, 0.16);position:relative;
+
+    		width: 100%;
+
+
+
+
+	        @media #{$lg}{
+	            padding: 115px 30px 30px 30px;
+	        }
+	        @media #{$md}{
+	            padding: 115px 30px 30px 30px;margin-bottom: 80px
+	        }
+	        @media #{$xs}{
+	            padding: 115px 30px 30px 30px;margin-bottom: 80px
+	        }
+
+		  .business_icon{
+		  	position:absolute;left: 50px;
+    top: -60px;
+		  }
+
+		  .business_single_info{
+		  	h5{
+		  		font-size: 30px;font-weight: 600;padding-bottom:25px;
+
+		        @media #{$lg}{
+		            font-size: 22px
+		        }
+		        @media #{$md}{
+		            font-size: 22px
+		        }
+		        @media #{$xs}{
+		            font-size: 22px
+		        }
+
+		  	}
+		  	p{
+
+		  	}
+
+
+		  }
+		  	.read_more{
+		  		padding-top:40px;
+
+		  		a{
+		  			position:relative;
+
+		  			&:hover{
+		  				color: $theme-color2
+		  			}
+		  		i{
+		  			    position: absolute;
+    top: 3px;
+    right: -35px;
+		  		}
+
+		  		}
+
+		  	}
+
+
+		 &::before{
+		    position: absolute;
+		    content: "";
+		    left: 0;
+		    bottom: 0;
+		    height: 4px;
+		    width: 0%;
+		background: rgb(0,150,214);
+		background: $theme-color2;
+		    -webkit-transition: all .4s ease-in-out;
+		    transition: all .4s ease-in-out;
+		    z-index: 123;border-radius: 10px;
+		}
+		 &:hover::before {
+		    position: absolute;
+		    content: "";
+		    left: 0;
+		    bottom: 0;
+		    height: 4px;
+		    width: 100%;
+		background: rgb(0,150,214);
+		background: $theme-color2;
+		    -webkit-transition: all .4s ease-in-out;
+		    transition: all .4s ease-in-out;border-radius: 10px;
+		    z-index: 123
+		}
+	}
+
+
+}

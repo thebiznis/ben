@@ -1,0 +1,181 @@
+/*===========================
+  01 Services css 
+===========================*/
+
+.services_details_area{
+
+
+
+
+
+.services__sidebar{
+
+
+	.services__widget{
+		background:$blog-bg2;
+padding: 43px 40px;
+    padding-bottom: 45px;
+
+    .services__widget-title{
+
+    	h4{
+
+    		    font-size: 24px;
+    margin-bottom: 20px;
+    	}
+    }
+
+    .services__widget-content{
+
+    	.services__link{
+
+    		ul{
+    			li{
+    				margin-bottom: 15px;
+    				a{
+
+		    						
+		                @include transition(0.3s);position:relative;
+		                
+		                &:hover{
+		                    color: $theme-color2;@include transition(0.5s);padding-left: 10px;
+		                }
+    					i{
+    						font-size: 12px;margin-right: 5px;
+    					}
+    				}
+    			}
+    		}
+    	}
+    }
+
+
+
+
+
+
+
+
+	}
+
+
+
+
+}
+
+
+
+
+.services__text{
+
+	h3{
+		font-size: 36px;
+    font-weight: 600;
+    line-height: 30px;padding-bottom: 30px;
+        @media #{$lg}{
+            font-size: 30px;    padding-bottom: 20px;
+        }
+        @media #{$md}{
+            font-size: 25px;    padding-bottom: 20px;
+        }
+        @media #{$xs}{
+            font-size: 25px;    padding-bottom: 20px;
+        }
+
+	}
+
+
+	.single-service-list{
+		p{
+			    line-height: 35px;position:relative;padding-left: 30px;
+
+			    i {
+    position: absolute;
+    top: 5px;
+    left:0px;
+}
+		}
+	}
+
+
+          @media #{$md}{
+           margin-top: 20px;
+          }
+          @media #{$xs}{
+           margin-top: 20px;
+          }
+
+
+
+
+}
+
+
+.sub-section-title{
+h3.title{
+		font-size: 36px;
+    font-weight: 600;
+    line-height: 30px;padding-bottom: 30px;
+        @media #{$lg}{
+            font-size: 30px;    padding-bottom: 20px;
+        }
+        @media #{$md}{
+            font-size: 25px;    padding-bottom: 20px;
+        }
+        @media #{$xs}{
+            font-size: 25px;    padding-bottom: 20px;
+        }
+
+	
+}
+          @media #{$md}{
+           margin-top: 20px;
+          }
+          @media #{$xs}{
+           margin-top: 20px;
+          }
+
+
+}
+
+
+.question_area{
+
+
+	.question-title{
+
+h3.title{
+		font-size: 36px;
+    font-weight: 600;
+    line-height: 30px;padding-bottom: 30px;
+        @media #{$lg}{
+            font-size: 30px;    padding-bottom: 20px;
+        }
+        @media #{$md}{
+            font-size: 25px;    padding-bottom: 20px;
+        }
+        @media #{$xs}{
+            font-size: 25px;    padding-bottom: 20px;
+        }
+
+	
+}
+
+
+		
+	}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+}

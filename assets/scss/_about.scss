@@ -1,0 +1,55 @@
+
+/*===========================
+  05   Home about section  css 
+===========================*/
+
+
+
+
+
+
+// Inner About Page 
+.about_inner_info{
+
+
+	       @media #{$md}{
+	            margin-top: 0px;margin-bottom: 0px;
+	        }
+	        @media #{$xs}{
+	            margin-top: 0px;margin-bottom: 0px;
+	        }
+	        @media #{$sm}{
+	            margin-top: 0px;margin-bottom: 0px;
+	        }
+
+	.build_info{
+		.build_list{
+			h5{
+				i{
+					color: $theme-color2;
+				}
+			}
+		}
+	}
+
+
+
+
+
+
+}
+
+
+
+
+
+.about_inner{
+
+background:$blog-bg2;
+
+
+
+
+
+
+}

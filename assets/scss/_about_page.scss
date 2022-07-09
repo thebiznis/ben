@@ -1,0 +1,141 @@
+/*===========================
+  05 About Inner page  css 
+===========================*/
+
+.header_breadcrumb{
+
+    position: relative;
+    z-index: 5;
+    overflow: hidden;
+    height: 530px;
+      background: url(../images/normal/about_bg.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+
+
+    @media #{$desktop}{
+        height: 530px;
+    }
+    
+    @media #{$lg}{
+        height: 450px;
+    }
+    @media #{$md}{
+        height: auto;
+    }
+    @media #{$xs}{
+        height: auto;
+    }
+
+
+
+    &::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #01054B;opacity: 0.8
+
+    }
+
+
+    .breadcrumb_list{
+    	position: relative;z-index: 1;
+    	h1{
+    		color: $white;font-size: 75px;text-transform: uppercase;
+        @media #{$laptop}{
+            font-size: 65px;
+        }
+        @media #{$lg}{
+            font-size: 50px;
+        }
+        @media #{$md}{
+            font-size: 45px;
+        }
+        @media #{$xs}{
+            font-size: 24px;
+        }
+        @media #{$sm}{
+            font-size: 30px;
+        }
+
+    		span{
+    			color: $theme-color;
+    		}
+    	}
+
+    	nav{
+    		ol.breadcrumb{
+    			
+    				li{
+    					&::before{
+    						color: $white;
+    					}
+    					color: $white ;text-transform: uppercase;
+				       @media #{$md}{
+				            font-size: 20px;
+				        }
+				        @media #{$xs}{
+				            font-size: 15px;
+				        }
+				        @media #{$sm}{
+				            font-size: 15px;
+				        }
+
+
+    					&.active{
+    						color: $theme-color;
+    					}
+    					a{
+    						color: $white;text-transform: uppercase; @include transition(0.3s);
+    						&:hover{
+    							color: $theme-color; @include transition(0.5s);
+    						}
+    					}
+    				}
+    			
+    		}
+    	}
+    }
+
+    .breadcrumb_img{
+    	position:relative;z-index: 1;
+
+       @media #{$md}{
+         padding-bottom: 15px
+        }
+        @media #{$xs}{
+            padding-bottom: 15px
+        }
+        @media #{$sm}{
+            padding-bottom: 15px
+        }
+        img{
+	       @media #{$md}{
+	            width: 50%
+	        }
+	        @media #{$xs}{
+	            width: 50%
+	        }
+	        @media #{$sm}{
+	            width: 50%
+	        }
+        }
+
+    }
+
+
+
+
+
+
+
+
+}
+

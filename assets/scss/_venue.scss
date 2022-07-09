@@ -1,0 +1,177 @@
+/*===========================
+   08 OUR VENUE LOCATION  css 
+===========================*/
+
+.our_venue_single{
+
+	.card{
+		    border: 0px solid rgba(0,0,0,.125);
+	}
+	.single_venue{
+		figure{
+			margin:0px;
+			 overflow: hidden;position:relative;border-radius:5px;
+			img{
+				display: block;border-radius:4px;width: 100%; @include transition(0.3s);
+			}
+			position:relative;
+	        &::before{
+	            position: absolute;
+	            content: '';
+	            top: 0;
+	            left: 0;
+	            width: 100%;
+	            height: 100%;
+	            background-color: rgba(0, 0, 0, 0.5);
+	            opacity: 0;
+	            @include transition(0.3s);
+	            z-index: 9;
+	        }
+		}
+		background:$white;
+	padding: 33px 40px 33px 39px;
+	  border-radius: 8px;
+	  box-shadow: 0 0 50px 0 rgba(88, 88, 88, 0.16);
+	  margin-right: 0px !important;
+
+	  	h5{
+	  		font-size: 25px;
+    padding-bottom: 15px;text-transform: uppercase;
+		        @media #{$lg} {
+				font-size: 20px
+		        }
+		        @media #{$md} {
+				font-size: 20px
+		        }
+
+		        @media #{$xs} {
+				font-size: 20px
+		        }
+
+
+	  	}
+
+	  	ul{
+	  		li{
+	  			font-size:12px;line-height:28px;
+	  			i{
+	  				color: $theme-color;
+    				font-size: 16px;
+	  			}
+	  		}
+	  	}
+
+	  	.read_more{
+	  		a{
+	  			    width: 150px;
+    height: 40px;
+    display: block;
+    font-weight: 400;
+    padding: 9px 20px;
+        font-size: 14px;
+	  		}
+	  	}
+			.main-btn-inline{
+			    display: inline-block;
+			  vertical-align: middle;
+			  -webkit-transform: perspective(0) translateZ(0);
+			  transform: perspective(0) translateZ(0);
+			  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+			  -webkit-transition-property: $theme-color;
+			  transition-property: $theme-color;
+			  -webkit-transition-duration: 0.5s;
+			  transition-duration: 0.5s;
+			color: $white;
+			background: $theme-color;border-radius: 4px;
+			    &::before{
+			      content: "";
+			      position: absolute;
+			      z-index: -1;
+			      top: 0;
+			      left: 0;
+			      right: 0;
+			      bottom: 0;
+			     
+			      background: $heading-color;
+			      -webkit-transform: scaleX(0);
+			      transform: scaleX(0);
+			      -webkit-transform-origin: 50% 0;
+			      transform-origin: 50% 0;
+			      -webkit-transition-property: transform;
+			      transition-property: transform;
+			      -webkit-transition-duration: 0.5s;
+			      transition-duration: 0.5s;
+			      -webkit-transition-timing-function: ease-out;
+			      transition-timing-function: ease-out;border-radius: 4px;
+
+			      }
+
+		}
+
+
+
+		&:hover{
+	            & .venue_thumb{
+	                & img{
+	                    @include transform(scale(1.2) rotate(
+-7deg
+));@include transition(0.5s)
+	                }
+	                &::before{
+	                    opacity: 1;
+	                }
+	            }
+
+
+
+			.read_more{
+
+				.main-btn-inline{
+
+
+				    
+
+				      &::before{
+				      -webkit-transform: scaleX(1);color: $white !important;
+				      transform: scaleX(1);
+				      -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+				      transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+
+				      }
+				      &::before{
+				      -webkit-transform: scaleX(1);
+				      transform: scaleX(1);
+				      -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+				      transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+
+				      }
+				      &:active:before{
+				      -webkit-transform: scaleX(1);
+				      transform: scaleX(1);
+				      -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+				      transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+
+				    }
+				      
+				}
+			}
+
+
+			
+		}
+
+
+
+
+
+
+
+
+
+
+
+	}
+
+
+
+}

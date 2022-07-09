@@ -1,0 +1,91 @@
+
+/*===========================
+  09  COUNTER AREA CSS
+===========================*/
+
+.counter-area{
+    position: relative;
+
+    &::before{
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 600px;
+    width: 100%;
+background: #D1EEFE url(../images/normal/counter.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;z-index: -1;
+    -webkit-transform: translateY(-30%);
+    -moz-transform: translateY(-30%);
+    -ms-transform: translateY(-30%);
+    transform: translateY(-30%);
+
+        @media #{$md}{
+           height: 100%;
+     -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);          
+        }
+        @media #{$xs}{
+           height: 100%;
+     -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);          
+        }
+    }
+
+
+	.counter-item{
+		display: flex;
+		    align-items: center;
+ padding: 30px 30px 30px 30px;
+  border-radius: 5px;
+  background-color: #e1e1e1;
+       
+        @media #{$lg}{
+            padding: 20px 20px 20px 0px;
+        }
+        @media #{$md}{
+           margin-bottom: 30px
+        }
+        @media #{$xs}{
+           margin-bottom: 30px
+        }
+    	.counter-icon {
+    		i{
+    			font-size: 45px;    margin-top: 18px;color: $heading-color;
+                    @media #{$lg}{
+                       font-size: 25px;
+                    }
+    		}
+    	}
+
+    	.counter_count{
+    		h5{
+    			font-size: 40px;font-weight: 700;color: $heading-color;
+                    @media #{$lg}{
+                       font-size: 25px;
+                    }
+
+    		}
+            span{
+                padding-top: 5px
+            }
+    	}
+
+	}
+
+
+
+
+
+
+
+
+}

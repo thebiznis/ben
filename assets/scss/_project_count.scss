@@ -1,0 +1,152 @@
+/*===========================
+ Project count css 
+===========================*/
+
+
+.project_count_area{
+
+
+
+
+
+	position: relative;z-index: 12;
+	.project_row{
+
+padding: 30px 30px 30px;
+  box-shadow: 0 30px 50px 0 rgba(255, 255, 255, 0.16);background-color:$white;margin-right: 5px;
+    margin-left: 5px;
+
+
+-webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 67.5%;
+    margin: 0px auto;
+
+      @media #{$lg} {
+ 		width: 86%;
+
+
+      }
+	    @media #{$md} {
+-webkit-transform: translateY(-10%);
+    -moz-transform: translateY(-10%);
+    -ms-transform: translateY(-10%);
+    transform: translateY(-10%);
+ box-shadow: 0 5px 50px 0 rgba(60, 59, 59, 0.16);        
+        position: static;width: 80%;
+	    }
+
+	    @media #{$xs} {
+-webkit-transform: translateY(-10%);
+    -moz-transform: translateY(-10%);
+    -ms-transform: translateY(-10%);
+    transform: translateY(-10%);
+
+    position: static;width: 80%;
+ 
+ box-shadow: 0 5px 50px 0 rgba(60, 59, 59, 0.16);        
+
+	    }
+		.single_project{
+
+
+			    @media #{$md} {
+			         padding: 25px 10px
+			    }
+
+			    @media #{$xs} {
+			         padding: 25px 10px
+			    }
+
+
+
+				span.icon{
+						padding: 10px 12px;
+						  border-radius: 3px;
+					 background-color: $theme-color2;width: 70px;height: 70px;
+					 i{
+					 	font-size: 35px;color: $white;margin-top: 5px
+					 }
+				}
+
+
+
+			
+			h5.title{
+			
+			  font-size: 40px;
+			  font-weight: 700;
+			  font-stretch: normal;
+			  font-style: normal;
+			  line-height: 1.52;
+	
+			  text-align: center;
+			  color: $heading-color2;
+
+			
+			    @media #{$lg} {
+			        font-size: 20px;
+			    }
+			    @media #{$md} {
+			         margin: 20px 0px 10px;font-size: 20px;
+			    }
+
+			    @media #{$xs} {
+			         margin: 20px 0px 10px;font-size: 18px;
+			    }
+
+
+			}
+		
+         
+	      
+	     
+
+		}
+
+		.line{
+			position:relative;
+			&::before{
+				position:absolute;right: -22px;content: "";width: 1px;height: 100%;background-color:#DDDDDF;
+
+			    @media #{$md} {
+			        position: absolute;
+    bottom: 0;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #DDDDDF;
+    right: 0;
+    left: 0;
+			    }
+
+			    @media #{$xs} {
+			         position: absolute;
+    bottom: 0;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #DDDDDF;
+    right: 0;
+    left: 0;
+			    }
+
+			}
+		}
+
+	}
+
+
+
+
+
+
+
+
+	
+}

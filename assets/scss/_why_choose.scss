@@ -1,0 +1,90 @@
+
+/*===========================
+   04   Why Coosing Us css 
+===========================*/
+
+
+.why-choosing-area{
+	position:relative;
+
+
+	&::before{
+
+		position: absolute;
+		    content: "";
+		    left: 0;
+		    bottom: -30px;
+		    height: 100%;
+		    width: 100%;
+		    background: url(../images/normal/circle_chooing.svg) no-repeat left bottom;z-index: -1;
+		    
+
+	}
+
+
+
+
+
+
+	.single_choosing{
+
+		padding: 40px 30px 40px;
+		  border-radius: 5px;
+		  box-shadow: 0 0 50px 0 rgba(158, 158, 158, 0.16);
+		  background-color: $white;@include transition(0.3s);
+	        @media #{$lg}{
+	            padding: 30px 20px 30px
+	        }
+		  .coosing-content{
+		  	h5{
+		  		padding: 35px 0;font-size: 29px;
+			        @media #{$lg}{
+			            font-size: 20px;padding: 28px 0;
+			        }
+			        @media #{$md}{
+			            font-size: 20px;padding: 28px 0;
+			        }
+			        @media #{$xs}{
+			            font-size: 20px;padding: 28px 0;
+			        }
+
+		  	}
+
+		  	p{
+		  		padding-bottom:35px
+		  	}
+		  	a{
+		  		position:relative;
+	            i{
+	              position: absolute;
+	   top: 3px;
+	    right: -35px;
+	            }
+	             &:hover{
+	             	color: $theme-color;@include transition(0.5s);
+	             }
+		  	}
+		  }
+
+
+		    &:hover{
+		         box-shadow: 0 0 50px 0 #ffe5de;@include transition(0.5s);
+		    }
+
+        @media #{$md}{
+           margin-bottom:30px
+        }
+        @media #{$xs}{
+            margin-bottom:30px
+        }
+	}
+
+
+
+
+
+
+
+
+
+}

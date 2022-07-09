@@ -1,0 +1,135 @@
+/*===========================
+ 07 Our Consulant css 
+===========================*/
+
+.our_consultant_area{
+
+
+        @media #{$md}{
+           padding-top: 60px
+        }
+        @media #{$xs}{
+           padding-top: 40px
+        }
+
+
+	.single-consultant{
+		 padding: 30px;
+		 
+		  border-radius: 5px;
+		  background-color:$card-color; @include transition(0.3s);
+        @media #{$md}{
+           margin-bottom: 30px
+        }
+        @media #{$xs}{
+           margin-bottom: 30px
+        }
+
+
+		  .consultant-thumb{
+		  	img{
+		  		width: 100%;border-radius:5px;
+		  	}
+		  }
+
+		  .consultant-content{padding:50px 0px; 
+
+					        @media #{$lg}{
+					            padding:40px 0px; 
+					        }
+					        @media #{$md}{
+					            padding:30px 0px; 
+					        }
+					        @media #{$xs}{
+					            padding:20px 0px; 
+					        }
+
+		  		h5{
+		  			font-size: 30px;@include transition(0.3s);
+					        @media #{$lg}{
+					            font-size: 25px;
+					        }
+					        @media #{$md}{
+					            font-size: 20px;
+					        }
+					        @media #{$xs}{
+					            font-size: 20px;
+					        }
+
+
+					 
+
+		  		}
+
+		  		span{
+		  			font-size: 17px;text-transform: uppercase;font-family: $roboto;padding-top: 15px;@include transition(0.3s);
+
+		  		}
+
+
+		  }
+	  		.consultant-single-btn{
+	  			
+
+	  			.main-btn{
+	  				margin: 0px auto;
+	  			}
+	  		}
+
+
+              &:hover{
+                  box-shadow: 0 0 50px 0 #ffe5de;@include transition(0.5s);background-color:#FF663B;
+
+
+
+					  .consultant-content{
+					  		h5{
+					  			color: $white;
+
+					  		}
+
+					  		span{
+					  			color: $white;
+					  			
+					  		}
+
+
+					  }
+
+
+
+                .main-btn {
+                  color: $heading-color;
+                }
+                .main-btn span {
+                  width: 225%;
+                  height: 562.5px;color: $heading-color;@include transition(0.5s);
+                }
+                .main-btn {
+                  background-color: $theme-color;@include transition(0.5s);
+                }
+
+                .mouse-hover{
+                        overflow: hidden;
+                    position: relative;
+                    @include transition(0.6s);
+                    z-index: 1;
+                }
+
+
+              }
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+}

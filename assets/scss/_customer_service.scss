@@ -1,0 +1,153 @@
+
+/*===========================
+  06 Customer Service css 
+===========================*/
+
+.customer_services_area{
+
+    background: $white url(../images/normal/service_bg.jpg) no-repeat center top;
+    background-size: 100%;
+			        @media #{$md}{
+			              background-size:  100% 100%;
+			        }
+			        @media #{$xs}{
+			              background-size:  100% 100%;
+			        }
+		.section-title{
+			h3.title{
+				font-size: 45px;color: $white;
+
+        @media #{$lg}{
+            font-size: 35px;    padding-bottom: 20px;
+        }
+        @media #{$md}{
+            font-size: 35px;    padding-bottom: 20px;
+        }
+        @media #{$xs}{
+            font-size: 30px;    padding-bottom: 20px;
+        }
+
+
+
+			}
+			p{
+				color: $white;
+			}
+		}
+
+
+
+
+	.single-customer{
+		padding: 50px 45px 100px;
+  border-radius: 10px;
+  box-shadow: 0 0 50px 0 rgba(158, 158, 158, 0.16);position:relative;margin: 0 0 60px; @include transition(0.3s);
+
+			        @media #{$lg}{
+			            padding: 30px 15px 80px;
+			        }
+			        @media #{$md}{
+			            padding: 30px 20px 80px;
+			        }
+			        @media #{$xs}{
+			            padding: 30px 20px 80px;
+			        }
+
+
+
+  		h5{
+  			font-size: 30px;padding:40px 0; 
+			        @media #{$lg}{
+			            font-size: 25px;
+			        } 
+			        @media #{$md}{
+			            font-size: 20px;
+			        }
+			        @media #{$xs}{
+			            font-size: 20px;
+			        }
+
+  		}
+
+
+  		.customer-single-btn{
+  			position: absolute;left: 0;right: 0;bottom: -26px;
+
+
+  			.main-btn{
+  				margin: 0px auto;
+  			}
+  		}
+
+
+              &:hover{
+                  @include transition(0.5s);
+
+
+
+                .main-btn {
+                  color: $heading-color;
+                }
+                .main-btn span {
+                  width: 225%;
+                  height: 562.5px;color: $heading-color;@include transition(0.5s);
+                }
+                .main-btn {
+                  background-color: $theme-color;@include transition(0.5s);
+                }
+
+                .mouse-hover{
+                        overflow: hidden;
+                    position: relative;
+                    @include transition(0.6s);
+                    z-index: 1;
+                }
+
+
+              }
+
+
+	}
+
+
+	.customer-info1{
+
+		margin-top: 130px;
+	    @media #{$md}{
+	         margin-top: 0px
+	    }
+	    @media #{$xs}{
+	         margin-top: 0px
+	    }
+
+	}
+	.customer-info2{
+
+		margin-top: 180px;
+	    @media #{$md}{
+	         margin-top: 0px
+	    }
+
+    @media #{$xs}{
+         margin-top: 0px
+    }
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

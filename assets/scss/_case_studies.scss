@@ -1,0 +1,162 @@
+
+/*===========================
+  08   RECENT CASE STUDIES CSS
+===========================*/
+
+.recent_case_area{
+
+
+
+
+
+
+
+
+	.single-case-studies{
+
+		overflow: hidden;
+
+
+		 position: relative;
+		 clear: both;
+
+        @media #{$md}{
+           margin-bottom: 30px
+        }
+        @media #{$xs}{
+           margin-bottom: 30px
+        }
+
+		 figure {
+		 position: relative;
+		
+		 overflow: hidden;
+		 border-radius: 5px;margin: 0 0 0;
+
+		 height: auto;
+		 background: #3085a3;
+		 text-align: center;
+		 cursor: pointer;
+		}
+
+		 figure img {
+		 position: relative;
+		 display: block;
+		 min-height: 100%;
+		 max-width: 100%;
+		
+		}
+
+		 figure figcaption {
+		 padding: 2em;
+		 color: #fff;
+		 text-transform: uppercase;
+		 font-size: 1.25em;
+		 -webkit-backface-visibility: hidden;
+		 backface-visibility: hidden;
+		}
+
+		 figure figcaption::before,
+		 figure figcaption::after {
+		 pointer-events: none;
+		}
+
+		 figure figcaption,
+		 figure figcaption > a {
+		 position: absolute;
+		 top: 0;
+		 left: 0;
+		 width: 100%;
+		 height: 100%;
+		}
+
+
+
+		 figure h5 {
+		 word-spacing: -0.15em;
+		 font-weight: 300;
+		}
+
+		 figure h5  {
+			font-size: 30px;font-weight: 600;color: $white;
+					 @media #{$md}{
+					           margin-top:25px
+					        }
+					        @media #{$xs}{
+					            margin-top:25px
+					        }
+		}
+
+		 figure h5,
+		 figure span {
+		 margin: 0;
+		}
+
+		 figure span {
+		 letter-spacing: 1px;
+		 font-size: 17px;font-family: $roboto;text-transform: uppercase;
+		}
+
+
+
+
+		figure {
+		background:$theme-color;
+		}
+
+		figure img,
+		figure .hover-info {
+		 -webkit-transition: opacity 0.60s, -webkit-transform 0.60s;
+		 transition: opacity 0.60s, transform 0.60s;
+		}
+
+		figure:hover img {
+		 opacity: 0.3;
+		 -webkit-transform: scale3d(2,2,1);
+		 transform: scale3d(2,2,1);
+		}
+
+		figure .hover-icon {
+		 -webkit-transition: -webkit-transform 0.35s;
+		 transition: transform 0.35s;
+		 -webkit-transform: scale3d(8.8,0.8,0);
+		 transform: scale3d(8.8,0.8,0);
+		 -webkit-transform-origin: 500%;
+		 transform-origin: 500%;
+		}
+
+		figure .hover-info {
+		 position: absolute;
+		 bottom: 0;
+		 left: 0;
+		 margin: 20px;
+		 padding: 30px;
+		 border: 2px solid #fff;
+		 text-transform: none;
+
+		 opacity: 0;
+		 -webkit-transform: scale3d(0.8,0.8,1);
+		 transform: scale3d(0.8,0.8,1);
+		 -webkit-transform-origin: 50% -100%;
+		 transform-origin: 50% -100%;width: 90%;
+		}
+
+		figure:hover .hover-icon,
+		figure:hover .hover-info {
+		 opacity: 1;
+		 -webkit-transform: scale3d(1,1,1);
+		 transform: scale3d(1,1,1);
+		}
+
+
+
+
+	}
+
+
+
+
+
+
+
+}

@@ -1,0 +1,28 @@
+<svg id="Group_142" data-name="Group 142" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="607.919" height="305.213" viewBox="0 0 607.919 305.213">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_33" data-name="Rectangle 33" width="305.213" height="308.385" transform="translate(308.385 0) rotate(90)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_141" data-name="Group 141" transform="translate(299.534 0)">
+    <g id="Group_140" data-name="Group 140" transform="translate(0)" clip-path="url(#clip-path)">
+      <g id="Group_139" data-name="Group 139" transform="translate(-298.608 -299.887)">
+        <circle id="Ellipse_29" data-name="Ellipse 29" cx="299.879" cy="299.879" r="299.879" transform="translate(0 0)" fill="none" stroke="#a9aaac" stroke-miterlimit="10" stroke-width="0.704"/>
+        <circle id="Ellipse_30" data-name="Ellipse 30" cx="278.211" cy="278.211" r="278.211" transform="translate(21.668 21.668)" fill="none" stroke="#a9aaac" stroke-miterlimit="10" stroke-width="0.688"/>
+        <circle id="Ellipse_31" data-name="Ellipse 31" cx="256.542" cy="256.542" r="256.542" transform="translate(43.336 43.336)" fill="none" stroke="#a9aaac" stroke-miterlimit="10" stroke-width="0.672"/>
+        <circle id="Ellipse_32" data-name="Ellipse 32" cx="234.874" cy="234.874" r="234.874" transform="translate(65.005 65.005)" fill="none" stroke="#a9aaac" stroke-miterlimit="10" stroke-width="0.657"/>
+        <circle id="Ellipse_33" data-name="Ellipse 33" cx="213.206" cy="213.206" r="213.206" transform="translate(86.673 86.673)" fill="none" stroke="#a9aaac" stroke-miterlimit="10" stroke-width="0.641"/>
+        <circle id="Ellipse_34" data-name="Ellipse 34" cx="191.538" cy="191.538" r="191.538" transform="translate(108.341 108.341)" fill="none" stroke="#a9aaac" stroke-miterlimit="10" stroke-width="0.625"/>
+        <circle id="Ellipse_35" data-name="Ellipse 35" cx="169.87" cy="169.87" r="169.87" transform="translate(130.009 130.009)" fill="none" stroke="#a9aaac" stroke-miterlimit="10" stroke-width="0.609"/>
+        <circle id="Ellipse_36" data-name="Ellipse 36" cx="148.201" cy="148.201" r="148.201" transform="translate(150.739 447.136) rotate(-89.636)" fill="none" stroke="#a9aaac" stroke-miterlimit="10" stroke-width="0.593"/>
+        <circle id="Ellipse_37" data-name="Ellipse 37" cx="126.533" cy="126.533" r="126.533" transform="matrix(0.002, -1, 1, 0.002, 173.033, 426.099)" fill="none" stroke="#a9aaac" stroke-miterlimit="10" stroke-width="0.578"/>
+        <circle id="Ellipse_38" data-name="Ellipse 38" cx="104.865" cy="104.865" r="104.865" transform="translate(194.847 195.181) rotate(-0.091)" fill="none" stroke="#a9aaac" stroke-miterlimit="10" stroke-width="0.562"/>
+        <circle id="Ellipse_39" data-name="Ellipse 39" cx="83.197" cy="83.197" r="83.197" transform="matrix(1, -0.006, 0.006, 1, 216.196, 217.17)" fill="none" stroke="#a9aaac" stroke-miterlimit="10" stroke-width="0.546"/>
+        <circle id="Ellipse_40" data-name="Ellipse 40" cx="61.529" cy="61.529" r="61.529" transform="translate(237.718 238.989) rotate(-0.592)" fill="none" stroke="#a9aaac" stroke-miterlimit="10" stroke-width="0.53"/>
+        <circle id="Ellipse_41" data-name="Ellipse 41" cx="39.86" cy="39.86" r="39.86" transform="translate(259.423 260.622) rotate(-0.862)" fill="none" stroke="#a9aaac" stroke-miterlimit="10" stroke-width="0.514"/>
+        <circle id="Ellipse_42" data-name="Ellipse 42" cx="18.192" cy="18.192" r="18.192" transform="matrix(1, -0.02, 0.02, 1, 281.326, 282.054)" fill="none" stroke="#a9aaac" stroke-miterlimit="10" stroke-width="0.498"/>
+      </g>
+    </g>
+  </g>
+  <path id="Path_121" data-name="Path 121" d="M-61.551,64.787c0,.076,0,.152,0,.231C-61.554,230.635,72.7,364.9,238.325,364.9V64.787Z" transform="translate(61.554 -63.946)" fill="#f3f3f3"/>
+</svg>
